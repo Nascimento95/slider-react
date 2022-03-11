@@ -46,7 +46,7 @@ function Slider() {
         setSlideImage({index: index , inProgress: false })
 
     }
-    console.log(slideImage)
+    
     return (
         <div className='container-slider'>
             {dataSlider.map((image, index) => 
